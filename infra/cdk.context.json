@@ -1,0 +1,41 @@
+{
+  "vpc-provider:account=151427405638:filter.isDefault=true:region=us-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-6259711a",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "151427405638",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-3ee56046",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-b3b6bcc8"
+          },
+          {
+            "subnetId": "subnet-155dfa5f",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-b3b6bcc8"
+          },
+          {
+            "subnetId": "subnet-d05cc88d",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-b3b6bcc8"
+          },
+          {
+            "subnetId": "subnet-3fc8c414",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-west-2d",
+            "routeTableId": "rtb-b3b6bcc8"
+          }
+        ]
+      }
+    ]
+  },
+  "ssm:account=151427405638:parameterName=/aws/service/ami-amazon-linux-latest/al2023-ami-kernel-6.1-x86_64:region=us-west-2": "ami-093467ec28ae4fe03"
+}

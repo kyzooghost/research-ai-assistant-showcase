@@ -1,0 +1,14 @@
+{
+    "bracketSpacing": true,
+    "explicitTypes": "always",
+    "endOfLine": "auto",
+    "newline-before-return": true,
+    "no-duplicate-variable": [true, "check-parameters"],
+    "no-var-keyword": true,
+    "printWidth": 120,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
+  }

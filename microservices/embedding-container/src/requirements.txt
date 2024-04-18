@@ -1,0 +1,4 @@
+boto3==1.33.10
+openai==1.2.0
+pandas==1.5.2
+tiktoken==0.5.2
